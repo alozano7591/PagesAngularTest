@@ -30,6 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `ng add angular-cli-ghpages`  install cli-ghpages to project
 
-`ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/`
+`ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/` make build, but will need to copy and past contents to docs folder
 
-`ng deploy --base-href=https://alozano7591.github.io/PagesAngularTest/`
+`ng deploy --base-href=https://alozano7591.github.io/PagesAngularTest/` the exact command to deploy
