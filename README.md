@@ -32,3 +32,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/`
 
+`ng deploy --base-href=https://alozano7591.github.io/PagesAngularTest/`
