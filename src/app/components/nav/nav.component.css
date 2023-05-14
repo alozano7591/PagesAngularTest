@@ -1,0 +1,63 @@
+/**** Start of main nav menu */
+nav{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  height: 70px;
+  line-height: 70px;
+  z-index: 1000;
+}
+
+nav a{
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px 60px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color:rgb(60, 60, 60);
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;             /* without this hovering colors won't highlight whole line*/
+}
+
+nav>ul>li{
+  display: inline-block;
+  position: relative;
+}
+
+/* Used for drop down menus */
+nav ul li ul{
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  z-index: 999;
+  text-align: left;
+  background-color: rgb(44, 44, 44);
+}
+
+
+nav ul li ul li a{
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li ul li:hover a:hover{
+  background-color: rgb(60, 60, 60);
+}
+
+nav ul li ul{
+  display: none;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+/* END Used for drop down menus */
