@@ -12,3 +12,127 @@
   background-size: cover;
 }
 
+.introSect, .skillSect, .workSect, .projectsSect, .contactSect{
+  padding: 45px 0 25px 0; /* Will need to delete this if not used, currently testing */
+  padding: 85px 25px;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+/********* START OF SKILL SECT **********/
+.skillSect{
+  /*background-image: url("../images/white_wall_hash.webp");*/
+}
+
+.formContainer{
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+        'fName'
+        'fEmail'
+        'fMessage'
+        'fButtons';
+
+  margin: 0 auto;
+}
+
+.frmName{
+  grid-area: fName;
+  width: 100%;
+}
+
+.frmEmail{
+  grid-area: fEmail;
+  width: 100%;
+}
+
+.skillListSect{
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+        'skillLang skillHL skillSoftware';
+
+  border: 1px black solid;
+  box-shadow: 5px 8px 5px #888888;
+  background-color: white;
+  padding: 25px 0px;
+}
+
+.skillListSect h3{
+  padding-bottom: 18px;
+}
+
+.skillListSect ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.skillListSect ul li{
+  padding: 5px 0 5px 0;
+}
+
+.skillLangList{
+  grid-area: skillLang;
+  width: 100%;
+}
+
+.skillHLList{
+  grid-area: skillHL;
+  width: 100%;
+}
+
+.skillSoftwareList{
+  grid-area: skillSoftware;
+  width: 100%;
+}
+
+/********* END OF SKILL SECT **********/
+
+
+/********* Work SECT **************/
+
+
+.workSect{
+  min-height: 100%;
+  background: linear-gradient(45deg, rgba(42, 69, 75, .6), rgb(14, 28, 38)), url("../../../assets/images/bg/white_wall_hash.webp");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(14, 28, 38, 0.3);
+
+  color: white;
+}
+
+.workSect h2{
+  border-bottom: 1px white solid;
+}
+
+
+.videoWrapper{
+  position: relative;
+  padding: 0px 0px 56.25% 0px;
+}
+
+
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/***** LegalLab Section **********/
+
+.legalLab a img{
+  width: 100%;
+}
+
+/******** LegalLab Section **********/
+
+/******* END OF WORK SECT *********/
